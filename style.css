@@ -44,7 +44,6 @@ margin-top: 0.5rem;
 
 .cartao {
     margin: 1rem 1rem;
-    background-color: var(--cor--cartao);
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
@@ -52,6 +51,7 @@ margin-top: 0.5rem;
 
 .cartao__conteudo {
     background-color: var(--cor--texto);
+    text-align: center;
     height: 100%;
 }
 
@@ -65,3 +65,15 @@ margin-top: 0.5rem;
     font-family: 1vw;
 }
 
+/* Aula 4 */
+
+.cartao__conteudo__pergunta p {
+    color: var(--cor--texto);
+    font-weight: 500;
+
+}
+
+.cartao__conteudo__resposta p {
+    color: var(--cor--texto);
+    font-weight: 700;
+}
