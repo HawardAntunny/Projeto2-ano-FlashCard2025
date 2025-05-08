@@ -1,12 +1,22 @@
 
+:root{
+    --cor--fundo: #412828b0;
+    --cor--texto: white;
+    --cor--footer: #222981cc;
+    --cor--cartao: #52cf20da;
+    --cor--titulo--cartao: #0000;
+
+}
+
+
 body{
-    background-color: aqua;
+    background-color: var(--cor--fundo);
     font-family:'Times New Roman', Times, serif;
 }
 
 footer{
-    background-color: black;
-    color: white;
+    background-color: var(--cor--footer);
+    color: var(--cor--texto);
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -22,6 +32,11 @@ margin-top: 0.5rem;
 
 
 
+
+
+/* aula 3 */
+
+
 #container {
     display: flex;
 }
@@ -29,9 +44,24 @@ margin-top: 0.5rem;
 
 .cartao {
     margin: 1rem 1rem;
-    background-color: black;
+    background-color: var(--cor--cartao);
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
+}
+
+.cartao__conteudo {
+    background-color: var(--cor--texto);
+    height: 100%;
+}
+
+.cartao__conteudo h3 {
+    background-color: var(--cor--titulo--cartao);
+    text-align: left;
+    padding:  0.5rem;
+    position: absolute;
+    margin: 0.6rem;
+    border-radius: 0.6rem;
+    font-family: 1vw;
 }
 
