@@ -1,46 +1,36 @@
 
-:root{
-    --cor--fundo: #412828b0;
-    --cor--texto: white;
-    --cor--footer: #222981cc;
-    --cor--cartao: #52cf20da;
-    --cor--titulo--cartao: #0000;
-
+:root {
+    --text-color: #DBE4EF;
+    --card-front-color: #144480;
+    --card-back-color: #00F4BF;
 }
 
-
-body{
-    background-color: var(--cor--fundo);
-    font-family:'Times New Roman', Times, serif;
+body {
+    background: url('img/bg-desktop.webp');
+    font-family: Bai Jamjuree;
 }
 
-footer{
-    background-color: var(--cor--footer);
-    color: var(--cor--texto);
+footer {
+    background-color: black;
+    color: white;
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 1rem;
-
+    height: 2rem;
 }
 
 footer p {
-text-align: center;
-font-size: 0.6rem;
-margin-top: 0.5rem;
+    text-align: center;
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
 }
 
 
-
-
-
-/* aula 3 */
-
+/* aula 3*/
 
 #container {
-    display: flex;
+    display: flex; 
 }
-
 
 .cartao {
     margin: 1rem 1rem;
@@ -50,30 +40,37 @@ margin-top: 0.5rem;
 }
 
 .cartao__conteudo {
-    background-color: var(--cor--texto);
+    background-color: var(--card-front-color);
     text-align: center;
+    /* background-color: aquamarine; */
     height: 100%;
 }
 
 .cartao__conteudo h3 {
-    background-color: var(--cor--titulo--cartao);
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
     text-align: left;
-    padding:  0.5rem;
+    padding: 0.5rem;
     position: absolute;
     margin: 0.6rem;
     border-radius: 0.6rem;
-    font-family: 1vw;
+    font-size: 1vw;
 }
 
-/* Aula 4 */
+.cartao__conteudo p {
+    margin-top: 1rem;
+    padding: 2rem;
+}
+
+
+/* aula 4*/
 
 .cartao__conteudo__pergunta p {
-    color: var(--cor--texto);
+    color: var(--text-color);
     font-weight: 500;
-
 }
 
 .cartao__conteudo__resposta p {
-    color: var(--cor--texto);
+    color: var(--card-back-color);
     font-weight: 700;
 }
