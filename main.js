@@ -1,17 +1,17 @@
 criaCartao(
     'Programação',
-    pergunta,
-    resposta
+   ' pergunta',
+    'resposta'
 )
 
 criaCartao(
-    categoria,
-    pergunta,
-    resposta
+    'categoria',
+    'pergunta',
+    'resposta'
 )
 
 criaCartao(
-    categoria,
-    pergunta,
-    resposta
+    'categoria',
+    'pergunta',
+    'resposta'
 )
