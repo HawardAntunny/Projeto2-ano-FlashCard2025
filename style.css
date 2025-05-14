@@ -112,9 +112,7 @@ footer p {
 }
 
 @media (max-width: 560px){
-    body{
-        backgorund: url('img/bg-mobile.webp');
-    }
+   
     .cartao{
         flex: 1 0 calc(100% - 1rem)
     }
