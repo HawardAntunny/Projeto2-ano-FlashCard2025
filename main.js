@@ -15,3 +15,9 @@ criaCartao(
     'pergunta',
     'resposta'
 )
+
+criaCartao(
+    'Quem sou eu',
+    'O professor',
+    'Haward'
+)
