@@ -65,7 +65,7 @@ footer p {
     backface-visibility: hidden;
 }
 
-.cartao__conteudo p {
+.cartao.active .cartao__conteudo p {
     margin-top: 1rem;
     padding: 2rem;
     margin-top: 5rem;
